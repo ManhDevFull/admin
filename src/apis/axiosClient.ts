@@ -2,8 +2,8 @@ import axios from 'axios'
 import queryString from 'query-string'
 import { localDataNames } from '../constants/appInfos'
 
-const baseURL = 'http://172.20.10.1:3002'
-// const baseURL = 'https://mts-se2w.onrender.com'
+// const baseURL = 'http://172.20.10.1:3002'
+const baseURL = 'https://mts-se2w.onrender.com'
 
 const getAccessToken = ()=>{
     const res = localStorage.getItem(localDataNames.authData);
