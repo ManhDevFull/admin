@@ -1,12 +1,12 @@
-import { Button, message, Typography } from "antd";
+import { Button, Typography } from "antd";
 import { useEffect, useState } from "react";
 import handleAPI from "../apis/handleAPI";
 import { authSeleter, refreshToken } from "../reduxs/reducers/authReducer";
 import { useDispatch, useSelector } from "react-redux";
 import { ModelCategory } from "../modals";
 import ItemCategory from "./components/Category/ItemCategory";
-import { SelectCate } from "../models/CategoryModel";
-import { buildCreateSlice } from "@reduxjs/toolkit";
+// import { SelectCate } from "../models/CategoryModel";
+// import { buildCreateSlice } from "@reduxjs/toolkit";
 import Loader from "../components/Loader";
 interface ICategory {
   name: string;

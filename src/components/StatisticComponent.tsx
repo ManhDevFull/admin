@@ -1,9 +1,7 @@
 import { Card, Space, Typography } from "antd";
-import { ReactNode } from "react";
-import { color } from "../constants/color";
 import { StatisticModel } from "../models/StatisticModel";
-import { MdCurrencyRupee } from "react-icons/md";
 import { FormatCurrency } from "../utils/formatNumber";
+import { color } from "../constants/color";
 
 interface Props {
   title: string;

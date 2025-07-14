@@ -1,4 +1,3 @@
-import { Descriptions } from "antd";
 
 export const localDataNames = {
   authData: "authData",

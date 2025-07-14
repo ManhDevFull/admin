@@ -98,7 +98,7 @@ const ItemCategory = (props: Props) => {
         </Space>
       </div>
       {isSelect &&
-        children?.length != 0 &&
+        children?.length !== 0 &&
         children?.map((item: any) => (
           <ItemCategory
             onRemove={(val:any)=> onRemove(val)}

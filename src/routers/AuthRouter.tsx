@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Login, SignUp } from '../screens'
 import { Typography } from 'antd'

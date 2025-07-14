@@ -1,4 +1,4 @@
-import { appInfo } from "../constants/appInfos";
+
 
 const Loader = () => {
   return (
